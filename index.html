@@ -12,26 +12,31 @@
   </head>
   <body>
     <div class="container">
-      <div class="row" id="firstrow" class="col-md-12">
-        <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-        <div id="myNav" class="overlay">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <div class="overlay-content">
-            <a href="#">Menu</a>
-            <a href="#">Events</a>
-            <a href="#">Contacts</a>
+      <div class="row" id="firstrow">
+        <div  class="col-md-4" id="firstrow-firstcol">
+          <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#">Menu</a>
+              <a href="#">Events</a>
+              <a href="#">Contacts</a>
+            </div>
           </div>
-        </div>
-        <script>
-          function openNav() {
-            document.getElementById("myNav").style.width = "100%";
-          }
+          <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+            }
 
-          function closeNav() {
-            document.getElementById("myNav").style.width = "0%";
-          }
-        </script>
-
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+          </script>
+        </div>                               <!--End of firstrow-firstcollumn-->
+        <div class="col-md-4" id="firstrow-secondcol">
+          <img src="Images/logoBig.png"><br><br><br>
+          <p>We Provide The Best Food <br>At The Right Price.</p>
+        </div>                              <!--End of firstrow-secondcollumn-->
       </div>                                             <!--End of first row-->
     </div>                                    <!--End of first/main container-->
   </body>
