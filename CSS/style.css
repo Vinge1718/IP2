@@ -1,15 +1,15 @@
-.container {
-  background-color: #F15A29;
-}
-body {
-    background-color: #F15A29;
-    margin: 0;
+body{
+    background-color: black;
+    margin: 10px;
     font-family: 'Maitree', Cadson Demak;
 }
-.burger {
-    color: white;
+#firstrow{
+  background-image: url("../Images/backgrounds/landing.jpg");
+  height: 636px;
 }
-
+.burger{
+  color: white;
+}
 .overlay {
     height: 100%;
     width: 0;
