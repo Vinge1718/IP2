@@ -8,13 +8,36 @@ body{
   height: 636px;
 }
 #firstrow-firstcol{
-  padding: 33px;
+  padding: 38px;
 }
 #firstrow-secondcol{
-  margin: auto;
+  top: 10%;
   font-size: 27px;
   text-align: center;
   color: white;
+}
+#secondrow{
+  text-align: center;
+  font-size: large;
+  min-height: 210px;
+}
+#secondrow-firstcol{
+  height: 210px;
+
+}
+#minirow1{
+  min-height: 105px;
+  background-color: #f2f3f4;
+}
+#minirow2{
+  min-height: 105px;
+  background-color: #F15A29;
+}
+#secondrow-secondcol{
+  background-image: url("../Images/foodtop/breakfast.jpg");
+  height: 210px;
+  text-align: center;
+  font-style: italic;
 }
 .burger{
   color: white;
