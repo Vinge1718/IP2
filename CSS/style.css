@@ -92,9 +92,28 @@ body{
   opacity: 0.5;
   color: black;
 }
-#image1wrapper{
-  border: 7px
+.fastfoodtext{
+  font-size: 19px;
+  text-align: left;
+  padding-right: 20%;
 }
+.drinkstext{
+  font-size: 19px;
+  text-align: right;
+  padding-left: 20%;
+}
+.drinksheader{
+  text-align: right;
+}
+#thirdrowimage1-1 :{
+  background-image: url("../Images/fastFood1.jpg");                /*Add first image on the third section/fast-food*/
+  height: 195px;
+}
+#thirdrowimage1-2 :{
+  background-image: url("../Images/fastFood2.jpg");                /*Add first image on the third section/fast-food*/
+  height: 195px;
+}
+
 .dinner-hover:hover{
   color: black;
 }
