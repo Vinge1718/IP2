@@ -92,7 +92,9 @@ body{
   opacity: 0.5;
   color: black;
 }
-
+#image1wrapper{
+  border: 7px
+}
 .dinner-hover:hover{
   color: black;
 }
