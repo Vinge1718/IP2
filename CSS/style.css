@@ -7,6 +7,15 @@ body{
   background-image: url("../Images/backgrounds/landing.jpg");
   height: 636px;
 }
+#firstrow-firstcol{
+  padding: 33px;
+}
+#firstrow-secondcol{
+  margin: auto;
+  font-size: 27px;
+  text-align: center;
+  color: white;
+}
 .burger{
   color: white;
 }
