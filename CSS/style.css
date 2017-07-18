@@ -1,61 +1,106 @@
 body{
-    background-color: black;
+  background-color: white
     margin: 10px;
     font-family: 'Maitree', Cadson Demak;
 }
 
 #firstrow{
   background-image: url("../Images/backgrounds/landing.jpg");
-  height: 636px;
+  height: 636px;                                                  /*Header-Styling - the entire header row*/
 }
+
 #firstrow-firstcol{
-  padding: 38px;
+  padding: 38px;                                                  /*Header styling - the Hamburger menu*/
 }
+
 #firstrow-secondcol{
   top: 10%;
   font-size: 27px;
   text-align: center;
-  color: white;
+  color: white;                                                   /*Header styling - the main menu logo*/
 }
+
 #secondrow{
   text-align: center;
-  font-size: large;
-  min-height: 210px;
+  font-size: 22px;
+  min-height: 210px;                                               /*Second-row/meal time(s) styling */
   color: white;
 }
+
 #secondrow-firstcol{
   height: 210px;
-  align-items: center;
+  align-items: center;                                            /*second-row/ - styling of the first quarter of the second row*/
+  padding: 0;
 }
+
 #minirow1{
   min-height: 105px;
-  background-color: #f2f3f4;
+  background-color: #f2f3f4;                                      /*Second-row/ first quarter upper half styling*/
+  padding-top: 15%;
+  color: orange;
 }
+
+#minirow1:hover{
+  opacity: 0.5;
+  color: black;                                                   /*Hover setting for Happy-hour*/
+}
+
 #minirow2{
   min-height: 105px;
   background-color: #F15A29;
+  padding-top: 15%;                                               /*Second-row/ first quarter lower half styling*/
 }
-#secondrow-firstcol{
-  height: 210px;
-  padding: 0;
+
+#minirow2:hover{
+  opacity: 0.5;
+  color: black;                                                   /*Hover settings fro Party-Time*/
 }
+
 #secondrow-secondcol{
   background-image: url("../Images/foodtop/breakfast.jpg");
   height: 210px;
   margin-left: 0;
   font-style: italic;
+  padding-top: 7%;                                                 /*(Breakfast) Second-row/ Second collumn styling /*/
 }
+
+#secondrow-secondcol:hover{
+  opacity: 0.5;                                                     /*Hover setting for Breakfast */
+  color: black;
+}
+
 #secondrow-thirdcol{
   background-image: url("../Images/foodtop/lunch.jpg");
   height: 210px;
+  padding-top: 7%;
+  font-style: italic;                                                /*(Lunch) Second-row/ third collumn styling */
 }
+
+#secondrow-thirdcol:hover{
+  opacity: 0.5;
+  color: black;
+}
+
 #secondrow-fourthcol{
   background-image: url("../Images/foodtop/dinner.jpg");
   height: 210px;
+  font-style: italic;
+  padding-top: 7%;                                                   /*(Dinner) Second-row/ Second collumn styling */
 }
+
+#secondrow-fourthcol:hover{
+  opacity: 0.5;
+  color: black;
+}
+
+.dinner-hover:hover{
+  color: black;
+}
+
 .burger{
   color: white;
 }
+
 .overlay {
     height: 100%;
     width: 0;
