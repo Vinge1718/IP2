@@ -3,6 +3,7 @@ body{
     margin: 10px;
     font-family: 'Maitree', Cadson Demak;
 }
+
 #firstrow{
   background-image: url("../Images/backgrounds/landing.jpg");
   height: 636px;
@@ -20,10 +21,11 @@ body{
   text-align: center;
   font-size: large;
   min-height: 210px;
+  color: white;
 }
 #secondrow-firstcol{
   height: 210px;
-
+  align-items: center;
 }
 #minirow1{
   min-height: 105px;
@@ -33,11 +35,23 @@ body{
   min-height: 105px;
   background-color: #F15A29;
 }
+#secondrow-firstcol{
+  height: 210px;
+  padding: 0;
+}
 #secondrow-secondcol{
   background-image: url("../Images/foodtop/breakfast.jpg");
   height: 210px;
-  text-align: center;
+  margin-left: 0;
   font-style: italic;
+}
+#secondrow-thirdcol{
+  background-image: url("../Images/foodtop/lunch.jpg");
+  height: 210px;
+}
+#secondrow-fourthcol{
+  background-image: url("../Images/foodtop/dinner.jpg");
+  height: 210px;
 }
 .burger{
   color: white;
