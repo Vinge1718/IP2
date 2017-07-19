@@ -97,6 +97,17 @@ body{
   text-align: left;
   padding-right: 20%;
 }
+.gallery1{
+  height: 33px;
+  text-align: center;
+  border: 2px solid #F15A29;
+  background-color: white;
+  color: #F15A29;                                   /*First gallery button formating*/
+}
+span{
+  content: "\2192";
+  color: #F15A29;
+}
 .drinkstext{
   font-size: 19px;
   text-align: right;
@@ -105,15 +116,40 @@ body{
 .drinksheader{
   text-align: right;
 }
-#thirdrowimage1-1 :{
+#imagewrapper1{
+  border:15px #e1e3e8 solid;
+  width: 490px;
+  height: 420px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+#thirdrowimage1-1{
   background-image: url("../Images/fastFood1.jpg");                /*Add first image on the third section/fast-food*/
   height: 195px;
+  background-repeat: no-repeat;
 }
-#thirdrowimage1-2 :{
-  background-image: url("../Images/fastFood2.jpg");                /*Add first image on the third section/fast-food*/
+#thirdrowimage1-2{
+  background-image: url("../Images/fastFood2.jpg");
+  background-repeat: no-repeat;                                  /*Add first image on the third section/fast-food*/
   height: 195px;
 }
-
+#imagewrapper2{
+  border:15px #e1e3e8 solid;
+  width: 490px;
+  height: 420px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+#thirdrowimage2-1{
+  background-image: url("../Images/drink1.jpg");                /*Add first image on the third section/fast-food*/
+  height: 390px;
+  background-repeat: no-repeat;
+}
+#thirdrowimage2-2{
+  background-image: url("../Images/drink2.jpg");
+  background-repeat: no-repeat;                                  /*Add first image on the third section/fast-food*/
+  height: 390px;
+}
 .dinner-hover:hover{
   color: black;
 }
