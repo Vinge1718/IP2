@@ -156,6 +156,10 @@ span{
   background-repeat: no-repeat;                                  /*Add first image on the third section/fast-food*/
   height: 390px;
 }
+.fourthrow{
+  background-image: url("../Images/backgrounds/foodsBg.jpg");
+  height: 599px;
+}
 .dinner-hover:hover{
   color: black;
 }
