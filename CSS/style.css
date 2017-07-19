@@ -1,6 +1,6 @@
 body{
   background-color: white
-    margin: 10px;
+    margin: 5px;
     font-family: 'Maitree', Cadson Demak;
 }
 
@@ -36,7 +36,7 @@ body{
 #minirow1{
   min-height: 105px;
   background-color: #f2f3f4;                                      /*Second-row/ first quarter upper half styling*/
-  padding-top: 15%;
+  padding-top: 11%;
   color: orange;
 }
 
@@ -48,7 +48,7 @@ body{
 #minirow2{
   min-height: 105px;
   background-color: #F15A29;
-  padding-top: 15%;                                               /*Second-row/ first quarter lower half styling*/
+  padding-top: 11%;                                               /*Second-row/ first quarter lower half styling*/
 }
 
 #minirow2:hover{
