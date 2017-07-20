@@ -40,21 +40,22 @@ body{
   color: orange;
 }
 
-#minirow1:hover{
+/*#minirow1:hover{
   opacity: 0.5;
-  color: black;                                                   /*Hover setting for Happy-hour*/
-}
+  color: black;
+}Hover setting for Happy-hour*/
 
 #minirow2{
   min-height: 105px;
   background-color: #F15A29;
-  padding-top: 11%;                                               /*Second-row/ first quarter lower half styling*/
+  padding-top: 11%;
+  color:black;                                            /*Second-row/ first quarter lower half styling*/
 }
 
-#minirow2:hover{
+/*#minirow2:hover{
   opacity: 0.5;
-  color: black;                                                   /*Hover settings fro Party-Time*/
-}
+  color: black;
+}Hover settings fro Party-Time*/
 
 #secondrow-secondcol{
   background-image: url("../Images/foodtop/breakfast.jpg");
@@ -200,7 +201,7 @@ span{
   text-align: center;
   font-size: 17px;
   color: #F15A29;
-  font-weight: bold;
+  font-weight: bold
 }
 
 #nav #menu ul li a:hover{
