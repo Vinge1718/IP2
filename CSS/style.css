@@ -156,6 +156,9 @@ span{
   background-repeat: no-repeat;                                  /*Add first image on the third section/fast-food*/
   height: 390px;
 }
+#foodmenu{
+  margin-top: 5%;
+}
 
 
 
@@ -165,10 +168,8 @@ span{
 
 }
 #nav #menu {
-  margin-left: 18%;
+  margin-left: 20%;
   height: 60px;
-
-  padding-left: 1px;
   width:960px;
 }
 #nav #menu ul{
@@ -189,13 +190,27 @@ span{
   display: block;
   color: black;
   background-color: #e8eaed;
+  margin-top: 10%;
 }
 #menu ul li a#ontab{
   background-color: white;
-
 }
+
+.menutxt{
+  text-align: center;
+  font-size: 17px;
+  color: #F15A29;
+  font-weight: bold;
+}
+
 #nav #menu ul li a:hover{
   color: #F15A29;
+}
+#menu-background{
+  background-color: white;
+  width: 960px;
+  text-align: center;
+
 }
 #first-menu-item{
   padding: 5%;
