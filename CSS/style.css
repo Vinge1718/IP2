@@ -157,17 +157,11 @@ span{
   background-repeat: no-repeat;                                  /*Add first image on the third section/fast-food*/
   height: 390px;
 }
-#foodmenu{
-  margin-top: 5%;
-}
-
 
 
 
                                                               /*Fourth row in-section menu styling syntax*/
-#nav{
 
-}
 #nav #menu {
   margin-left: 20%;
   height: 60px;
@@ -207,20 +201,13 @@ span{
 #nav #menu ul li a:hover{
   color: #F15A29;
 }
-#menu-background{
-  background-color: white;
-  width: 960px;
-  text-align: center;
 
-}
 #first-menu-item{
   padding: 5%;
 }
                                                                   /*End of fourth row in-section styling*/
-.fourthrow{
-  background-image: url("../Images/backgrounds/foodsBg.jpg");
-  height: 599px;
-}
+
+
 .dinner-hover:hover{
   color: black;
 }
@@ -228,7 +215,17 @@ span{
 .burger{
   color: white;
 }
-
+/*Fourth section styling*/
+.fourthrow{
+  background-image: url("../Images/backgrounds/foodsBg.jpg");
+  height: 599px;
+  padding: 70px 100px 50px 100px;
+}
+#foodmenu{
+  min-height: 450px;
+  min-width:960px;
+  background-color: white;
+}
 .overlay {
     height: 100%;
     width: 0;
