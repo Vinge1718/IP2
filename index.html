@@ -38,8 +38,14 @@
           <p>We Provide The Best Food <br>At The Right Price.</p>
         </div>                                                                   <!--End of firstrow-secondcollumn-->
       </div>                                                                     <!--End of first row-->
+
+
+      <!--Meal times/ Second Section-->
+
       <div class="row" id="secondrow">
         <div class="col-md-3" id="secondrow-firstcol">
+
+          <!-- Happy-hour -->
           <div class="col-md-12" id="minirow1">
             <p data-target="#happyhour" data-toggle="modal">Happy Hour</p>       <!--Start of first modal collumn design-->
               <div class="modal" id="happyhour">
@@ -63,7 +69,10 @@
                   </div>
                 </div>
               </div>
-            </div>                                                                <!--End of Happy hour modal formating-->
+            </div>
+
+            <!--Breakfast-->
+
           <div class="col-md-12" id="minirow2">
             <p data-target="#partytime" data-toggle="modal">Party Time</p>
               <div class="modal" id="partytime">
@@ -93,6 +102,9 @@
         <div class="col-md-3" id="secondrow-thirdcol" class="lunch-hover"><p>Lunch</p></div>
         <div class="col-md-3" id="secondrow-fourthcol" class="dinner-hover"><p>Dinner</p></div>
       </div>                                                                     <!--End of second row -->
+
+      <!--Fast-food and Drinks/ Third section-->
+
       <div class="container" class="row">
         <div class="col-md-6" class="row">
           <div id="imagewrapper1">
@@ -135,35 +147,51 @@
             <div class="col-md-6" id="thirdrowimage2-2"></div>
           </div>
         </div>
-      </div>                                                                      <!--End of thirdrow-->
-      <div>
-        <div class="fourthrow" >
-          <div id="foodmenu">
-            <div id="nav">
-              <div id="menu">
-                <ul>
-                  <li><a href="#" id="ontab">Fast Food</a></li>
-                  <li><a href="#">Drinks</a></li>
-                  <li><a href="#">Chicken</a></li>
-                  <li><a href="#">Rice</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="container" class="row" id="menu-background">                             	<!--Main holder-->
-              <div class="col-md-4">
-                <div id="first-menu-item" class="col-md-12"> <img src="Images/fastfood/chickenPizza.jpg"> <br> <p class="menutxt">Chicken Pizza</p> </div>
-              </div>
-              <div class="col-md-4">
-                <div id="second-menu-item" class="col-md-12"> <img src="Images/fastfood/beefBurger.jpg"> <br> <p class="menutxt">Beef Burger</p></div>
-              </div>
-              <div class="col-md-4">
-                <div id="third-memu-item" class="col-md-12"> <img src="Images/fastfood/chickenBurger.jpg"> <br> <p class="menutxt">Chicken Burger</p></div>
-              </div>
+      </div>                                                                                     <!--End of thirdrow-->
 
+      <!--Menu Items/ Fourth section-->
+
+
+        <div class="fourthrow" >
+          <div id="foodmenu" class="container-fluid">
+
+              <div id="menu" >
+                <ul class="nav nav-tabs">
+                  <li class="active"><a data-toggle="tab" href="#fastfood">Fast Food</a></li>
+                  <li><a data-toggle="tab" href="#drinks">Drinks</a></li>
+                  <li><a data-toggle="tab" href="#chicken">Chicken</a></li>
+                  <li><a data-toggle="tab" href="#rice">Rice</a></li>
+                </ul><br><br><br>
+
+                <div class="tab-content">
+                  <div id="fastfood" class="tab-pane fade in active">
+                    <div class="container" id="menu-container">
+                      <div class="col-md-3">
+                        <img src="Images/fastfood/chickenBurger.jpg"> <br><br> <p class="menutxt">Chicken Burger<p>
+                      </div>
+                      <div class="col-md-3">
+                        <img src="Images/fastfood/chickenPizza.jpg"> <br><br> <p class="menutxt">Chicken Pizza<p>
+                      </div>
+                      <div class="col-md-3">
+                        <img src="Images/fastfood/beefBurger.jpg"> <br><br> <p class="menutxt">Beef Burger<p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="drinks" class="tab-pane fade">
+                    <img src="Images/fastfood/beefBurger.jpg">
+                  </div>
+                  <div id="chicken" class="tab-pane fade">
+                    <img src="Images/fastfood/beefBurger.jpg">
+                  </div>
+                  <div id="rice" class="tab-pane fade">
+                  <img src="Images/fastfood/beefBurger.jpg">
+                  </div>
+                </div>
             </div>
-          </div>                                                                  <!--end of fourthrow menu -->
-        </div>
-      </div>                                                                      <!--End of fourth row/section-->
-    </div>                                                                        <!--End of first/main container-->
+                                                                                                <!--end of fourthrow menu -->
+        </div>                                                                                  <!--End of fourth row/section-->
+
+
+    </div>                                                                                      <!--End of first/main container-->
   </body>
 </html>
