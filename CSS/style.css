@@ -160,52 +160,8 @@ span{
 
 
 
-                                                              /*Fourth row in-section menu styling syntax*/
+   /*Fourth row in-section menu styling syntax*/
 
-#nav #menu {
-  margin-left: 20%;
-  height: 60px;
-  width:960px;
-}
-#nav #menu ul{
-  list-style: none;
-  margin: auto;
-  text-align: center;
-}
-#nav #menu ul li a{
-  text-decoration: none;
-  float: left;
-  margin-right: 1px;
-  text-align: center;
-  font-family: 'Maitree', Cadson Demak;
-  font-size: 21px;
-  font-weight: bold;
-  padding: 15px;
-  width: 150px;
-  display: block;
-  color: black;
-  background-color: #e8eaed;
-  margin-top: 10%;
-}
-#menu ul li a#ontab{
-  background-color: white;
-}
-
-.menutxt{
-  text-align: center;
-  font-size: 17px;
-  color: #F15A29;
-  font-weight: bold
-}
-
-#nav #menu ul li a:hover{
-  color: #F15A29;
-}
-
-#first-menu-item{
-  padding: 5%;
-}
-                                                                  /*End of fourth row in-section styling*/
 
 
 .dinner-hover:hover{
@@ -219,13 +175,30 @@ span{
 .fourthrow{
   background-image: url("../Images/backgrounds/foodsBg.jpg");
   height: 599px;
-  padding: 70px 100px 50px 100px;
+  padding: 70px 100px 50px 100px;margin-top: 27px;
 }
 #foodmenu{
   min-height: 450px;
   min-width:960px;
   background-color: white;
 }
+.menutxt{
+  text-align: center;
+  font-size: 17px;
+  color: #F15A29;
+  font-weight: bold
+}
+#menu{
+  color:#F15A29;
+  font-size: 21px;
+  font-weight: bold;
+  }
+.fourthrow #foodmenu #menu ul li #activetab{
+  color: #F15A29;
+}
+a{
+    color:black;
+  }
 .overlay {
     height: 100%;
     width: 0;
