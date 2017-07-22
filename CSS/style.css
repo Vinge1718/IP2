@@ -171,11 +171,15 @@ span{
 .burger{
   color: white;
 }
+
 /*Fourth section styling*/
+
+
 .fourthrow{
   background-image: url("../Images/backgrounds/foodsBg.jpg");
   height: 599px;
-  padding: 70px 100px 50px 100px;margin-top: 27px;
+  padding: 80px 70px 50px 70px;
+  margin-top: 27px;
 }
 #foodmenu{
   min-height: 450px;
@@ -198,7 +202,49 @@ span{
 }
 a{
     color:black;
-  }
+}
+
+
+/*Fifith section styling syntac */
+
+
+
+.fifthwrapper{
+  padding: 50px 100px 50px 100px;
+  background-color: white;
+  margin-top: 100px;
+}
+.fifthwrapper-content{
+  box-shadow: 0px 0px 3px #e1e3e8;
+  text-align: center;
+  width: 850px;
+}
+h2{
+  color: #F15A29;
+  font-weight: bold;
+}
+.customer-text{
+  color: black;
+  font-weight: 27px;
+}
+#customers{
+  align-self: center;
+}
+#customers .customerimages{
+  padding: 30px;
+}
+.scrollbutton1{
+  color:#F15A29;
+  border-style: none;
+  background-color: white;
+}
+.scrollbutton2{
+  color:#F15A29;
+  border-style: none;
+  background-color: white;
+}
+
+
 .overlay {
     height: 100%;
     width: 0;
@@ -211,6 +257,9 @@ a{
     overflow-x: hidden;
     transition: 0.5s;
 }
+
+/*Hamburger menu overlay syntax*/
+
 
 .overlay-content {
     position: relative;
