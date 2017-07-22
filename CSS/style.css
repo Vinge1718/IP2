@@ -210,34 +210,49 @@ a{
 
 
 .fifthwrapper{
-  padding: 50px 100px 50px 100px;
+  padding: 50px 100px 50px 60px;
   background-color: white;
   margin-top: 100px;
+  height: 500px;
+  width: 1020px;
 }
 .fifthwrapper-content{
-  box-shadow: 0px 0px 3px #e1e3e8;
-  text-align: center;
-  width: 850px;
+  padding-top: 20px;
+  width: 900px;
+  height: 350px;
+  box-shadow: 0 0 20px #93969b;
 }
+
 h2{
   color: #F15A29;
   font-weight: bold;
 }
+
 .customer-text{
   color: black;
   font-weight: 27px;
+  text-align: justify;
+}
+#rule{
+  height: 300px;
+  width: 1px;
+  border-left: #e0e2e5 solid 1px;
 }
 #customers{
   align-self: center;
+  text-align: center;
 }
+
 #customers .customerimages{
   padding: 30px;
 }
+
 .scrollbutton1{
   color:#F15A29;
   border-style: none;
   background-color: white;
 }
+
 .scrollbutton2{
   color:#F15A29;
   border-style: none;
