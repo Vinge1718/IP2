@@ -179,7 +179,7 @@ span{
   background-image: url("../Images/backgrounds/foodsBg.jpg");
   height: 599px;
   padding: 80px 70px 50px 70px;
-  margin-top: 27px;
+  margin-top: 74px;
 }
 #foodmenu{
   min-height: 450px;
@@ -210,12 +210,15 @@ a{
 
 
 .fifthwrapper{
-  padding: 50px 100px 50px 60px;
+  padding: 50px 60px 50px 60px;
   background-color: white;
-  margin-top: 100px;
   height: 500px;
   width: 1020px;
+  margin: auto;
+  margin-top: 70px;
 }
+
+
 .fifthwrapper-content{
   padding-top: 20px;
   width: 900px;
@@ -259,6 +262,19 @@ h2{
   background-color: white;
 }
 
+/*Sixth wrapper styling*/
+
+.sixthwrapper {
+  background-image: url("../Images/backgrounds/subscribe.jpg");
+  padding: 5% 10% 5% 10%;
+  color: white;
+}
+
+#subscriberow{
+
+  text-align: center;
+
+}
 
 .overlay {
     height: 100%;
@@ -273,6 +289,28 @@ h2{
     transition: 0.5s;
 }
 
+/*Seventh wrapper*/
+
+.seventhwrapper{
+  height: 349px;
+  background-color: #F15A29;
+  color: white;
+  text-align: center;
+  padding-top: 7%;
+}
+
+
+#logos{
+  float: left;
+  padding: 50px;
+}
+
+.logo{
+  padding-right: 20px;
+}
+.footertext{
+  font-size: 10px;;
+}
 /*Hamburger menu overlay syntax*/
 
 
