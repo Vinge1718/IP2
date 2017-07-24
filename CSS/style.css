@@ -266,14 +266,23 @@ h2{
 
 .sixthwrapper {
   background-image: url("../Images/backgrounds/subscribe.jpg");
-  padding: 5% 10% 5% 10%;
+  padding: 4% 10% 7% 10%;
   color: white;
 }
 
 #subscriberow{
-
   text-align: center;
+}
 
+.subscribe{
+  opacity: 0.4;
+}
+
+.subscribe-button{
+  color: white;
+  background-color:#F15A29;
+  margin-left: 10px;
+  butto
 }
 
 /*Seventh wrapper*/
