@@ -229,12 +229,15 @@ a{
 h2{
   color: #F15A29;
   font-weight: bold;
+  text-align: center;
 }
-
+#customer-name{
+  text-align: center;
+}
 .customer-text{
   color: black;
   font-weight: 27px;
-  text-align: justify;
+  text-align: center;
 }
 #rule{
   height: 300px;
@@ -263,28 +266,44 @@ h2{
 }
 
 /*Sixth wrapper styling*/
-
-.sixthwrapper {
-  background-image: url("../Images/backgrounds/subscribe.jpg");
-  padding: 4% 10% 7% 10%;
+.subscribe{
   color: white;
+  font-size: 29px;
 }
 
-#subscriberow{
+form{
+  height: 301px;
+  background-image: url("../Images/backgrounds/subscribe.jpg");
+  color: white;
+  width: 100%;
+  padding-top: 70px;
   text-align: center;
 }
 
-.subscribe{
-  opacity: 0.4;
+form input{
+  border: none;
+  height: 45px;
+  opacity: 0.3;
+  font-size: 18px;
+  width: 400px;
+  margin-left: -30px;
 }
 
-.subscribe-button{
+form input[type="email"]{
+  padding-left: 20px;
+
+}
+button{
+  height: 43px;
+  background-color: #F15A29;
   color: white;
-  background-color:#F15A29;
-  margin-left: 10px;
-  butto
-}
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  margin-left: 20px;
+  font-size: 18px;
 
+}
 /*Seventh wrapper*/
 
 .seventhwrapper{
